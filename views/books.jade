@@ -1,0 +1,14 @@
+extends layout  
+
+block content 
+  h1= "Enter ID"
+  form(name="books", method="post")
+    input(type="number", name="ID")
+    br
+    h1= "Name of Book"
+    input(type="text", name="BookName")
+    br
+    h1= "Author Name"
+    input(type="text", name="AuthorName")
+    br
+    input(type="submit", value="Submit")
